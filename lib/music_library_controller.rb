@@ -23,9 +23,7 @@ class MusicLibraryController
       puts "To quit, type 'exit'."
       
       puts "What would you like to do?"
-      counter = 1
       input = gets.chomp
-      until input = "exit"
         
         case input
           when "list songs"
@@ -38,7 +36,7 @@ class MusicLibraryController
           else
             "Please enter a valid input."
         end
-        counter += 1 
+       
       end
       
 
